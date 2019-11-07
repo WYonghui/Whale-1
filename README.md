@@ -48,9 +48,9 @@ mvan clean install -Dmaven.test.skip=true -Dcheckstyle.skip=true
 ```
 
 ### disni.jar and rdmachannel-core.jar
-Whale use RDMA Verbs by [Disni](https://github.com/zrlio/disni) , then we further encapsulate the RDMA Verbs primitive [RDAM-Channel](https://github.com/Tjcug/RdmaChannel) to make it more practical and efficient.
+Whale use RDMA Verbs by [Disni](https://github.com/zrlio/disni) , then we further encapsulate the RDMA Verbs primitive [RDAM-Channel](https://github.com/Whale-Storm/RdmaChannel) to make it more practical and efficient.
 
-Building disni.jar and rdmachannel-core.jar, you just only see [RDMA-Channel](https://github.com/Tjcug/RdmaChannel) project. It includes all environments running RDMA-channel.
+Building disni.jar and rdmachannel-core.jar, you just only see [RDMA-Channel](https://github.com/Whale-Storm/RdmaChannel) project. It includes all environments running RDMA-channel.
 
 # 4. Whale Benchmark
 ## 4.1 Buidling Benchmark
